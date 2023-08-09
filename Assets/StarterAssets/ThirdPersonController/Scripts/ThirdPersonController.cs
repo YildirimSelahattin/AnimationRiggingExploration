@@ -398,7 +398,9 @@ namespace StarterAssets
             if(_animator)
             {
                 _animator.SetIKPositionWeight(AvatarIKGoal.LeftFoot, 1);
+                _animator.SetIKRotationWeight(AvatarIKGoal.LeftFoot, 1);
                 _animator.SetIKPositionWeight(AvatarIKGoal.RightFoot, 1);
+                _animator.SetIKRotationWeight(AvatarIKGoal.RightFoot, 1);
 
                 //Left Foot
                 RaycastHit hit;
